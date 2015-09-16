@@ -1,0 +1,58 @@
+{
+    "type": "extension",
+    "id": "com.mindscapesolutions.password-field-type",
+    "version": "1.0",
+    "revision": 1,
+    "compatibility": "4.2+",
+    "title": "Password Field Type",
+    "description": "A password input field to be used in the admin panel. It displays dots instead of the actual characters. If a password is already stored, it remains intact if the field is left blank. Password is hashed using the same algorithm as the built-in user maintenance.",
+    "keywords": [
+        "password",
+        "field"
+    ],
+    "author": {
+        "name": "MINDSCAPE Solutions",
+        "url": "http://mindscapesolutions.com",
+        "email": "programmers@mindscapesolutions.com"
+    },
+    "licenses": {
+        "MIT": "http://opensource.org/licenses/MIT"
+    },
+    "components": {
+        "module_groups": [
+
+        ],
+        "modules": [
+
+        ],
+        "templates": [
+
+        ],
+        "callouts": [
+
+        ],
+        "settings": [
+
+        ],
+        "feeds": [
+
+        ],
+        "field_types": [
+            {
+                "id": "com.mindscapesolutions.password-field-type*password",
+                "name": "Password",
+                "use_cases": {
+                    "templates": "on",
+                    "modules": "on",
+                    "callouts": "on",
+                    "settings": "on"
+                },
+                "self_draw": null,
+                "extension": "com.mindscapesolutions.password-field-type"
+            }
+        ],
+        "tables": [
+
+        ]
+    }
+}
